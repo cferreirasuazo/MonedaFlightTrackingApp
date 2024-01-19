@@ -36,7 +36,7 @@ export const WelcomeScreen: FC<WelcomeScreenProps> = observer(function WelcomeSc
 
   return (
     <View style={$container}>
-      <View style={$topContainer}>
+      {/* <View style={$topContainer}>
         <Image style={$welcomeLogo} source={welcomeLogo} resizeMode="contain" />
         <Text
           testID="welcome-heading"
@@ -57,7 +57,7 @@ export const WelcomeScreen: FC<WelcomeScreenProps> = observer(function WelcomeSc
           tx="welcomeScreen.letsGo"
           onPress={goNext}
         />
-      </View>
+      </View> */}
     </View>
   )
 })
